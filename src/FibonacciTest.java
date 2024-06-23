@@ -21,4 +21,10 @@ class FibonacciTest {
         final var test = Fibonacci.findSequenceIterative(6);
         assertEquals(8, test);
     }
+
+    @Test
+    public void findSequenceStream() {
+        final var test = Fibonacci.findSequenceStream(6);
+        assertEquals(8, test);
+    }
 }
